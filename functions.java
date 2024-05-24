@@ -8,7 +8,10 @@ public class functions {
     }
 public static void main(String[] args) {
         int n = factorial(4);
-        System.out.println(n);
+        int m = factorial(5);
+        System.out.println(n==m);
+        
+
     }
 }
 
